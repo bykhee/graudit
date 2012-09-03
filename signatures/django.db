@@ -1,0 +1,4 @@
+autoescape off
+mark_safe
+\|safe
+csrf_exempt

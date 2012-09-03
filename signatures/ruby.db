@@ -1,0 +1,18 @@
+# SQLi
+conditions => ".*\#.*"
+# xsrf
+protect_from_forgery
+# mass assignments
+attr_protected
+attr_accessible
+# session cookies
+session
+cookie
+# RCE
+send\(.*\)
+`.*`
+%x\[.*\]
+%x\(.*\)
+system\(.*\)
+exec\(.*\)
+\$\?\.
